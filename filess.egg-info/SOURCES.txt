@@ -1,0 +1,8 @@
+main.py
+setup.py
+filess.egg-info/PKG-INFO
+filess.egg-info/SOURCES.txt
+filess.egg-info/dependency_links.txt
+filess.egg-info/entry_points.txt
+filess.egg-info/requires.txt
+filess.egg-info/top_level.txt
