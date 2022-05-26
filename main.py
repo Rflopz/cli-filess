@@ -1,10 +1,13 @@
 #!/usr/bin/python
 
 import click
+from Commands.Analize import analize
 
-@click.command()
-def hello():
-    click.echo('hello from click')
+@click.group()
+def cli():
+    pass
+
+cli.add_command(analize)
 
 if __name__ == '__main__':
-    hello()
+    cli()

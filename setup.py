@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        filess=main:hello
+        filess=main:cli
     '''
 )
