@@ -1,10 +1,11 @@
 import click
+from App.application import Application
 
 @click.group()
-def analize():
+def Analize():
     pass
 
-@analize.command()
+@Analize.command()
 @click.option('-p', '--path', help='Path to the folder to analize')
 def all(path):
-    click.echo('path %s' % path)
+    Application.hello(path)

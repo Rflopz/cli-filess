@@ -1,13 +1,13 @@
 #!/usr/bin/python
 
 import click
-from Commands.Analize import analize
+from Commands.analize import Analize
 
 @click.group()
 def cli():
     pass
 
-cli.add_command(analize)
+cli.add_command(Analize)
 
 if __name__ == '__main__':
     cli()
